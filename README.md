@@ -1,11 +1,5 @@
 # Vue-Shop
 
-![app preview](assets/preview.gif)
-
-## About The Project
-
-``
-
 ### Built with
 
 - Vue Js
@@ -18,19 +12,19 @@
 1. Clone the repository
 
    ```
-
+   git clone https://github.com/Passant-Abdelgalil/coach-finder.git
    ```
 
 2. Navigate to the directory
 
    ```
-
+   cd coach-finder
    ```
 
 3. Install dependencies
 
    ```
-
+   npm i
    ```
 
 ### Compiles and hot-reloads for development
