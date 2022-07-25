@@ -1,6 +1,7 @@
 # Vue-Shop
 
 ### Built with
+[readmeGIF.webm](https://user-images.githubusercontent.com/69261710/180807239-002252f8-80c3-4494-b498-645f40fab5dc.webm)
 
 - Vue Js
 - SASS
@@ -39,39 +40,35 @@ npm run serve
 .
 ├── README
 ├──
-└── vue-shop # Project files
+└── coach-finder # Project files
     ├── src
     |   ├── components
-    |   |   ├── cart
-    |   |   |   └── CartItem.vue
-    |   |   ├── nav
-    |   |   |   └── AppHeader.vue
-    |   |   ├── products
-    |   |   |   └── ProductItem.vue
-    |   |   └── ui
-    |   |       └── BaseBadge.vue
+    |   |   ├── BaseComponents
+    |   |   |   |   BaseButton.vue
+    |   |   |   |   BaseContainer.vue
+    |   |   |   └── CategoryBox.vue
+    |   |   ├── coaches
+    |   |   |   |   CoachCard.vue
+    |   |   |   |   ContactCoach.vue
+    |   |   |   └── FilterCoach.vue
+    |   |   ├── AppHeader.vue
+    |   |   ├── FiltersContainer.vue 
+    |   |   └── InputField.vue
     |   ├── views
+    |   |   ├── CoachDetails.vue
+    |   |   ├── CoachesList.vue
     |   |   ├── PageNotFound.vue
-    |   |   ├── ProductsList.vue
-    |   |   ├── ShopAdmin.vue
-    |   |   └── UserCart.vue
+    |   |   ├── RegisterCoach.vue
+    |   |   └── RequestsList.vue
     |   ├── router
     |   |   └── index.js
     |   ├── store
-    |   |   ├── modules
-    |   |   |   ├── auth
-    |   |   |   |   ├── actions.js
-    |   |   |   |   ├── mutations.js
-    |   |   |   |   ├── getters.js
-    |   |   |   |   └── index.js
-    |   |   |   ├── cart
-    |   |   |   |   ├── actions.js
-    |   |   |   |   ├── mutations.js
-    |   |   |   |   ├── getters.js
-    |   |   |   |   └── index.js
-    |   |   |   └── products
-    |   |   |       ├── getters.js
-    |   |   |       └── index.js
+    |   |   ├── coaches
+    |   |   |   ├── coaches.js
+    |   |   |   ├── mutations.js
+    |   |   |   ├── getters.js
+    |   |   ├── requests
+    |   |   |   |   └── requests.js
     |   |   └── index.js
     |   ├── App.vue
     |   └── main.js
