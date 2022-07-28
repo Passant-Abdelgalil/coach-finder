@@ -1,4 +1,4 @@
-# Vue-Shop
+# Coach Finder
 
 [readmeGIF.webm](https://user-images.githubusercontent.com/69261710/180807239-002252f8-80c3-4494-b498-645f40fab5dc.webm)
 
